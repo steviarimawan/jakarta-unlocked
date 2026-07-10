@@ -27,7 +27,7 @@ a {
 		linear-gradient(to bottom,
 			rgba(0, 0, 0, 0) 20%,
 			rgba(0, 0, 0, 0.8) 100%),
-		url(../images/Sunset\ Cityscape\ View.jpeg);
+		img src="sunset jakarta.jpg";
 
 	background-size: cover;
 	background-position: center;
