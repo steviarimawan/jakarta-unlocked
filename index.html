@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- Website edited by Stevia Rimawan/25229060 -->
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Jakarta Unlocked!</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie7.css"><![endif]-->
+	<style>
+		a:link{
+		color: white;	
+		}
+		a:visited {
+			color: white;
+		}
+		a:hover {
+			color: white;
+		}
+		a:active {
+			color: white;
+		}
+
+	</style>
+</head>
+
+<body>
+	<script>
+		let answer;
+
+		do {
+			answer = prompt("Before entering the website, please type 'Jakarta' to continue:");
+
+			if (answer === null) {
+				alert("You must type 'Jakarta' to enter the website.");
+			} else if (answer.toLowerCase() !== "jakarta") {
+				alert("Incorrect! Please type 'Jakarta' to continue.");
+			}
+
+		} while (answer === null || answer.toLowerCase() !== "jakarta");
+
+		alert("Welcome to Jakarta Unlocked!");
+	</script>
+	<header id="header">
+		<div class="navbar">
+			<a href="index.html"><span>Home</span></a>
+			<a href="packages.html"><span>Packages</span></a>
+			<a href="about.html"><span>About Us</span></a>
+			<a href="contact.html"><span>Contact</span></a>
+		</div>
+	</header>
+
+	<div id="body">
+		<div class="home1">
+			<div>
+				<h2 class="tulisanAtas">Jakarta Unlocked</h2>
+				<p class="uppertext2">Explore Jakarta like a local</p>
+			</div>
+
+			<button onclick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });">Get It
+				Now</button>
+			<p id="quote"></p>
+		</div>
+		<div id="home">
+
+			<div class="packages">
+				<h2>Popular Experience</h2>
+				<span id="get-it-now">Limited Spots!</span>
+				<ul>
+					<li class="section">
+						<h3>Jakarta Street Food Trips</h3>
+						<p>
+							Explore Jakarta's famous culinary destinations with local food experts.
+						</p>
+						<span class="price"> <a href="packages.html" class="view">View All</a>
+						</span>
+					</li>
+					<li>
+						<h3>Jakarta Heritage Experience</h3>
+						<p>
+							Walk through Kota Tua and discover the city's history.
+						</p>
+					</li>
+					<li class="section">
+						<h3>Jakarta Night Experience</h3>
+						<p>
+							Experience the city's nightlife, skyline, and hidden rooftop spots.
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="blog">
+				<h2>Travel Journal</h2>
+				<ul>
+					<li>
+						<div>
+							Jun<span>08</span>
+						</div>
+						<a href="blog.html">Top 10 Hidden Cafés in Jakarta You Should Visit!</a>
+					</li>
+					<li>
+						<div>
+							Jun<span>12</span>
+						</div>
+						<a href="blog.html">How to Spend One Weekend in Jakarta</a>
+					</li>
+					<li>
+						<div>
+							Jul<span>30</span>
+						</div>
+						<a href="blog.html">Why Walking Tours Are the Best Way to Explore Jakarta</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="footer1">
+		</div>
+		<p>
+			TIU Introduction to Informatics and Computing <br>
+			Stevia Rimawan/25229060 <br>
+			Original template:
+			<a href="https://freewebsitetemplates.com/preview/airsportswebsitetemplate/index.html" target="_blank">
+				Air Sports Website Template </a> <br>
+			&copy; Copyright 2026. All rights reserved
+		</p>
+	</div>
+	</div>
+
+</body>
+
+</html>
